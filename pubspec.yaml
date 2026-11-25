@@ -1,0 +1,24 @@
+name: uyg_zil_sesi_yapici
+description: "Zil Sesi Yapıcı – Fotoğraf, Video ve Ses uygulaması (studio_core/apps + medya_motoru)."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 92b51dd7d47c300d3611c448b5474fca5f793f2a
+  medya_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/medya-motoru
+      ref: 87cd5923e9b52fc8e5d5c8f82ae5daa6a1d5c89e
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
