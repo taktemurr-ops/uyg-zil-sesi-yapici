@@ -16,7 +16,7 @@ dependencies:
   medya_motoru:
     git:
       url: https://github.com/taktemurr-ops/medya-motoru
-      ref: 1e99976a58f2bf0333f470153891bb8f9af485a3
+      ref: 946c53b8f65ba520a41268ed6c9a55e91b76cb5d
 
 dev_dependencies:
   flutter_test:
